@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="App" id="todo-app">
+      <div class="todo-list-container">
+        <p>ToDo LIST</p>
+        <div class="todo-input">
+          <input type="text" id="new-task" placeholder="할 일을 입력하세요" />
+          <button id="add-task-button">+</button>
+        </div>
+        <ul class="todo-list" id="task-list"></ul>
+        <div class="trash-layout">
+          <button class="trash-button" id="trash-button">휴지통</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="App" id="trash-page" style="display: none">
+      <div class="trash-container">
+        <h2>휴지통</h2>
+        <ul class="trash-list" id="trash-list"></ul>
+        <div class="trash-layout">
+          <button class="back-button" id="back-button">ToDO로 돌아가기</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
