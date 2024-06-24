@@ -53,16 +53,6 @@ h2 {
   box-sizing: border-box;
 }
 
-.todo-input button {
-  margin-left: 10px;
-  padding: 10px;
-  background: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 .todo-list,
 .trash-list {
   list-style: none;
@@ -108,7 +98,7 @@ h2 {
 .trash-button,
 .back-button {
   padding: 10px 20px;
-  background: #007bff;
+  background: #0000ff;
   color: white;
   border: none;
   border-radius: 4px;
@@ -118,7 +108,17 @@ h2 {
 .trash-list button {
   margin-left: 10px;
   padding: 5px 10px;
-  background: #007bff;
+  background: #0000ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-input button {
+  margin-left: 10px;
+  padding: 10px;
+  background: #0000ff;
   color: white;
   border: none;
   border-radius: 4px;
@@ -172,8 +172,8 @@ h2 {
 }
 
 button:hover {
-  outline: 2px solid #007bff; /* 파란색 테두리 추가 */
-  outline-offset: 2px; /* 아웃라인과 요소 사이의 간격 조정 */
+  outline: 4px solid #0000ff;
+  outline-offset: 4px;
   transition: outline-color 0.1s, outline-width 0.1s;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
